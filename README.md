@@ -4,7 +4,7 @@
 
  >* NodeJS
  >* ExpressJS
- >* Prisma (MySQl)
+ >* Prisma (MySQL)
 
 ## Front-end (WIP):
 
