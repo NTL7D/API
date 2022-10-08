@@ -1,4 +1,4 @@
-# A simple Web RESR API using:
+# A simple Typescript REST API using:
 
 ## Backend:
 
