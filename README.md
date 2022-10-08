@@ -2,13 +2,13 @@
 
 ### Backend:
 
-* > NodeJS
-* > ExpressJS
-* > Prisma (MySQl)
+ >* NodeJS
+ >* ExpressJS
+ >* Prisma (MySQl)
 
 ## Front-end (WIP):
 
-> ReactJS
+>* ReactJS
 
 # How to use:
 * To re-install packages, use: yarn --check-file
