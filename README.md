@@ -12,9 +12,9 @@
 
 # How to use:
 
-[^1] To re-install packages, use: yarn --check-file
-[^2] Type npx prisma init to get .env file from prisma
-[^3] Go to .env, change the Database to your root account and database schema
+[^1]: To re-install packages, use: yarn --check-file
+[^2]: Type npx prisma init to get .env file from prisma
+[^3]: Go to .env, change the Database to your root account and database schema
 
 ### Example:
 
