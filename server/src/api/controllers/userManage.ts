@@ -6,6 +6,21 @@ export async function getUsers(req: Request, res: Response): Promise<Response> {
     return res.json(getUsers);
 }
 
+export async function getUser(req: Request, res: Response): Promise<Response> {
+    const id = req.params.id;
+    const getUser = await prisma.user.findUnique({
+        where: {
+            id: Number(id),
+        },
+    });
+
+    if (!getUser) {
+        return res.json({ message: "User not found" });
+    } else {
+        return res.json(getUser);
+    }
+}
+
 export async function createUser(
     req: Request,
     res: Response
